@@ -3,6 +3,10 @@ import java.util.ArrayList;
 /**
  * This class handles the parsing of the json that was returned
  * from the AlphaVantage class.
+ *
+ * 03/28/18 - I know now that there exists JSON parsing libraries
+ * that are well done and I feel sad and gross that I wrote this.
+ * Oh well, I learned my lesson.
  */
 public class JSONParse {
     private String json;
